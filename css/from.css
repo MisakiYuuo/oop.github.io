@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.from {
+    overflow: hidden;
+    position: relative;
+}
+
+.bgc {
+    width: 100%;
+}
+
+.submit {
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 150px;
+    width: 600px;
+    height: 600px;
+    padding: 0 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_title {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.form_input span {
+    align-self: center;
+    line-height: 36px;
+}
+
+.btn_submit {
+    align-self: center;
+    margin-top: 40px;
+}
+
+.btn {
+    border: none;
+    width: 80px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    background: #999;
+    margin-top: 40px;
+}
+
+.btn:hover {
+    background: #666;
+}
+
+.back {
+    margin-left: 10px;
+}
+
+.home_href {
+    border: none;
+    width: 80px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    background: #FFD204;
+}
+
+.ribbon {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    margin: auto;
+}
+
+.ribbon:after,
+.ribbon:before {
+    margin-top: 0.5em;
+    content: "";
+    display: flex;
+    ;
+    border: 1.5em solid #fff;
+}
+
+.ribbon:after {
+    border-right-color: transparent;
+}
+
+.ribbon:before {
+    border-left-color: transparent;
+}
+
+.ribbon a:link,
+.ribbon a:visited {
+    color: #000;
+    text-decoration: none;
+    height: 3.5em;
+    overflow: hidden;
+}
+
+.ribbon span {
+    background: #fff;
+    display: inline-block;
+    line-height: 3em;
+    padding: 0 1.5em;
+    margin-top: 0.5em;
+    position: relative;
+    -webkit-transition: background-color 0.2s, margin-top 0.2s;
+    /* Saf3.2+, Chrome */
+    -moz-transition: background-color 0.2s, margin-top 0.2s;
+    /* FF4+ */
+    -ms-transition: background-color 0.2s, margin-top 0.2s;
+    /* IE10 */
+    -o-transition: background-color 0.2s, margin-top 0.2s;
+    /* Opera 10.5+ */
+    transition: background-color 0.2s, margin-top 0.2s;
+}
+
+.ribbon a:hover span {
+    background: #FFD204;
+    margin-top: 0;
+}
+
+.ribbon span:before {
+    content: "";
+    position: absolute;
+    top: 3em;
+    left: 0;
+    border-right: 0.5em solid #9B8651;
+    border-bottom: 0.5em solid #fff;
+}
+
+.ribbon span:after {
+    content: "";
+    position: absolute;
+    top: 3em;
+    right: 0;
+    border-left: 0.5em solid #9B8651;
+    border-bottom: 0.5em solid #fff;
+}
+
+.daily {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 60px;
+}
+
+.about_bgc {
+    width: 100%;
+    height: 500px;
+}
+
+.about_tit,
+.about_titt,
+.about_tits,
+.about_titl {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    font-size: 28px;
+    font-weight: 550;
+    bottom: 0;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.about_tits {
+    top: 250px;
+}
+
+.about_titl {
+    top: 300px;
+}
+
+.about_titt {
+    top: 350px;
+}
+
+.dailylist {
+    padding: 30px 200px;
+}
+
+.line {
+    color: #fff;
+    background-color: #FFD204;
+    border-radius: 50%;
+    display: block;
+    font-size: 20px;
+    font-weight: 550;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.line::after {
+    position: absolute;
+    top: 60px;
+    content: '';
+    width: 4px;
+    background-color: #FFD204;
+    height: 400px;
+    left: 30px;
+}
+
+.list_titls {
+    padding: 30px;
+    text-align: center;
+}
+
+.item_info {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.imgsinfo {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.item_info p {
+    width: 400px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.right_tit {
+    font-size: 18px;
+    padding-bottom: 10px;
+    display: block;
+    color: #FFD204;
+    font-weight: 550;
+}

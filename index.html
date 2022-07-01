@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="home">
+        <div class="content">
+            <div class="stars"></div>
+            <img class="bgc" src="./img/01.jpg" width="100%" alt="">
+            <h3 class="title">任何东西只要学了，就是积累，在你感受不到的任何细节里。 </h3>
+            <h3 class="titles">今天也要加油鸭</h3>
+            <!-- <img class="icon" src="./img/down.png" alt=""> -->
+            <div class='ribbon'>
+                <a href='./index.html'><span>Home</span></a>
+                <a href='./anyweb/about.html'><span>About</span></a>
+                <a href='./anyweb/daily.html'><span>Daily</span></a>
+                <a href='./anyweb/form.html'><span>Form</span></a>
+
+            </div>
+
+        </div>
+        <div class="icons">
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/04.jpg" alt="">
+                <span>教学楼是我们每天必去取经之地</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/04.jpg" alt="">
+                <span>每天一到饭点都要在食堂里面纠结到底吃什么</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/04.jpg" alt="">
+                <span>午饭后躺在草坪上晒晒太阳欣赏学校的美景</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/04.jpg" alt="">
+                <span>忙碌又充实的一天结束爬上心爱的小床和室友聊聊天</span>
+            </div>
+        </div>
+        <div class="introduce">
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="./img/04.jpg" alt="">
+                <span class="introduce_item_title">天空还是一片浅蓝,转眼间东方出现了一道红霞,红霞慢慢地在扩大，不大一会就染红了小半边天。颜色红得可爱， 又
+                    过了一会儿,在那个地方出现了太阳的小半边脸。美好的一天开始了</span>
+
+            </div>
+            <div class="introduce_item">
+
+                <span
+                    class="introduce_item_titles">当清晨的阳光洒进我们宿舍，闹钟开始响起，忙碌的一天又开始了，每个人睡眼惺忪，从床上爬起，忙忙碌碌的穿梭在食堂与教室之间，充满了青春的气息</span>
+                <img class="introduce_item_img" src="./img/04.jpg" alt="">
+            </div>
+
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="./img/04.jpg" alt="">
+                <span
+                    class="introduce_item_title">每当放学铃声响起，男同学们瞬间以百米冲刺的速度奔向食堂，当我们拖着咕咕叫的肚子到食堂的时候已经人山人海了，从每个浏览一遍，默默的排起了长队加入吃饭大军。</span>
+            </div>
+            <div class="introduce_item">
+                <span
+                    class="introduce_item_titles">温暖的阳光照耀着大地，远处的小山都金灿灿的美轮美奂，它穿梭于微隙的气息。舒倘，漫长。紫檀的香味，弥漫在春日，把天地间一切空虚盈满，阳光下，是一道纤绝的尘陌，呢喃着天真，充盈着那抹曾经深不可测的孤清而飘逸的影。</span>
+                <img class="introduce_item_img" src="./img/04.jpg" alt="">
+            </div>
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="./img/04.jpg" alt="">
+                <span
+                    class="introduce_item_title">当晚自习结束后，抬头望向天空，几颗大而亮的星星挂在夜空，仿佛是天上的人儿提着灯笼在巡视那浩瀚的太空。美丽极了，裹紧衣裳，在这优美的夜色中慢慢的走回宿舍。</span>
+            </div>
+            <div class="introduce_item">
+                <span
+                    class="introduce_item_titles">夜空挂满了星星一闪一闪，银白色的月光洒在地上，到处都有蟋蟀的叫声。夜的香气弥漫在空中，织成了一个柔软的网，把所有的景物都罩在里面。眼睛接触到的都是罩上这个柔软的网的东西，任是一草一木，都不像在白天里那样现实了，它们都有着模糊、空幻的色彩，每一样都隐藏了它的细致之点，都保守着它的秘密，如梦如幻。</span>
+                <img class="introduce_item_img" src="./img/04.jpg" alt="">
+            </div>
+        </div>
+        <audio autoplay="autoplay" loop="loop" id="audio" loop="loop">
+            <source src="./music/磯村由纪子 - 風の住む街.mp3" type="audio/MP3">
+
+        </audio>
+        <img class="music_img" src="./img/yuanx.png" alt="">
+    </div>
+
+</body>
+<script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function () {
+        setTimeout(() => {
+            mucics.play();
+        }, 1000);
+    }, false);
+</script>
+
+</html>
